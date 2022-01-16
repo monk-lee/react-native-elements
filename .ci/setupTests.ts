@@ -1,6 +1,6 @@
 jest.mock(
-  '../node_modules/react-native/Libraries/LayoutAnimation/LayoutAnimation.js'
+  '../../../node_modules/react-native/Libraries/LayoutAnimation/LayoutAnimation.js'
 );
 jest.mock(
-  '../node_modules/react-native/Libraries/Animated/src/NativeAnimatedHelper'
+  '../../../node_modules/react-native/Libraries/Animated/NativeAnimatedHelper.js'
 );
